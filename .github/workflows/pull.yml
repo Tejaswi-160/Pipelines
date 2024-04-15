@@ -4,11 +4,11 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: MSBuild
+name: Pull
 
 on:
-  push:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
