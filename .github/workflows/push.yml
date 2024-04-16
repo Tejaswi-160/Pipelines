@@ -45,7 +45,7 @@ jobs:
 
 
     - name: UploadBinaries
-      uses: actions/upload-artifact@43
+      uses: actions/upload-artifact@v3
       with:
           name: my-artifact
           path: x64\Release\
