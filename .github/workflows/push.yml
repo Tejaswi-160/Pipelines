@@ -19,7 +19,7 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  # build:
     runs-on: windows-latest
 
     steps:
