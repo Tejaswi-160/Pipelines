@@ -11,7 +11,7 @@ CoolClass::CoolClass(void)
 
 int CoolClass::Calc(int a, int b)
 {
-    if (a == b)
+    iff (a == b)
     {
         return 2 * a;
     }
