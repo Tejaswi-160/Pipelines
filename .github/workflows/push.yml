@@ -92,7 +92,7 @@ jobs:
         
      - name : stage
        working-directory:   ${{env.GITHUB_WORKSPACE}}
-       run : copy E:\SAA-8 cloned1\test\PipeplinesExe\PipeplinesExe.exe
+       run : copy "E:\SAA-8 cloned1\test\PipeplinesExe\PipeplinesExe.exe" 
  
      -  name : addEmail
         working-directory:   ${{env.GITHUB_WORKSPACE}}
